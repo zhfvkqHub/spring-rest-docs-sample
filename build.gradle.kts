@@ -86,6 +86,7 @@ tasks {
         dependsOn(test)
         configurations("asciidoctorExt")
         inputs.dir(snippetsDir)
+        baseDirFollowsSourceFile()
     }
     val createDocument by registering(Copy::class) { // (7) 생성된 문서를 정적 리소스 디렉터리로 복사하는 작업을 정의합니다.
         dependsOn(asciidoctor)
