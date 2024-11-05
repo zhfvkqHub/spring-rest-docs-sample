@@ -1,0 +1,8 @@
+= Spring REST Docs 샘플
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 10
+:seclinks:
+
+include::notice.adoc[]
